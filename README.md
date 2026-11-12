@@ -2,7 +2,9 @@
 
 GMRS Lookup is a macOS app for searching United States GMRS licenses. It reads a MySQL database, a PostgreSQL database, or a SQLite file built from the FCC Universal Licensing System GMRS file. Searches run on your Mac. The app does not send a query to a server.
 
-The window is titled **GMRS Lookup**. The Xcode project and the app bundle are named `GMRSRadioQuery` (`us.ds6.GMRSRadioQuery`). It is separate from Ham Radio Lookup and does not use that app's database.
+The window is titled **GMRS Lookup**. The Xcode project and the app bundle are named `GMRSRadioQuery` (`us.ds6.GMRSRadioQuery`). This app keeps its own license database.
+
+For amateur licenses, the native macOS app is [ham_radio_query](https://github.com/deverl/ham_radio_query). The cross-platform Electron app is [ham_radio_lookup](https://github.com/deverl/ham_radio_lookup).
 
 ## What you can look up
 
